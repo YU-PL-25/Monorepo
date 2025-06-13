@@ -3,6 +3,12 @@
 위치 기반 + 실력 기반 자동 매칭 시스템
 React (프론트엔드) + Spring Boot (백엔드) 기반의 웹 서비스 프로젝트 입니다.
 
+## 🎬 최종 발표 자료
+발표 자료: [프로그래밍언어_최종발표](https://docs.google.com/presentation/d/1cbJLZQiRRO8jxw33259UeExzzKJIGWay9NuCx9Zs5_M/edit?usp=sharing)<br>
+발표 자료 내 시연 영상이 재생되지 않는 경우는 권한 요청이 필요합니다.<br>
+혹시 요청이 누락될 경우, 아래 메일로 알려주시면 빠르게 승인드리겠습니다.<br>
+(✉️ [메일로 문의](mailto:dayeon.name@gmail.com))
+
 ## 📁 폴더 구조 안내
 폴더명	설명
 - [Backend](./Backend)	Spring Boot 기반 백엔드 코드
@@ -53,7 +59,3 @@ COOLSMS_API_KEY=your-api-key
 COOLSMS_API_SECRET=your-api-secret
 COOLSMS_SENDER_PHONE=01012345678
 ```
-
-## 🎬 시연 영상 및 자료
-발표 자료: [프로그래밍언어_최종발표](https://docs.google.com/presentation/d/1cbJLZQiRRO8jxw33259UeExzzKJIGWay9NuCx9Zs5_M/edit?usp=sharing)<br>
-발표 자료 내 시연 영상을 플레이하기 위해선 권한을 요청해야 합니다.
