@@ -1,0 +1,38 @@
+.cta-section {
+  background-color: #AF1AAA;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Wanted Sans Variable', sans-serif;
+}
+
+.cta-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cta-subtext {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #AF1AAA;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #e3d9ff;
+  color: #8425a7;
+}

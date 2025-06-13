@@ -1,0 +1,51 @@
+.tc-team-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 10px;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.tc-team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tc-team-tier {
+  background-color: #e5e7eb;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.tc-team-users {
+  margin-top: 12px;
+}
+
+.tc-user-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 4px 0;
+}
+
+.tc-team-average {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.tc-score-input {
+  margin-top: 16px;
+}
+
+.tc-score-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

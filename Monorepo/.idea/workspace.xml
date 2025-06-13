@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18a021ca-b84f-4f5b-87b1-2c238604b40b" name="Changes" comment="[수정] MMR 갱신 시 단식의 경우 승패구분 없이 win count +1 되던 에러 수정 - 다른 기능 수정한 버전 혹시 모르니 다연 브랜치에 백업">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2yIOhwq4w4mrn3dBgh1NsQbQk2w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Backend.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ShuttleplayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dayeon/Desktop/shuttleplay/Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="ShuttleplayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shuttleplay.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="PL_25.shuttleplay.ShuttleplayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18a021ca-b84f-4f5b-87b1-2c238604b40b" name="Changes" comment="" />
+      <created>1749518744677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749518744677</updated>
+      <workItem from="1749518746549" duration="849000" />
+      <workItem from="1749519603778" duration="1614000" />
+      <workItem from="1749550373729" duration="13603000" />
+      <workItem from="1749651237832" duration="8281000" />
+      <workItem from="1749736613112" duration="3743000" />
+      <workItem from="1749746396649" duration="62000" />
+      <workItem from="1749779867831" duration="874000" />
+    </task>
+    <task id="LOCAL-00001" summary="[수정] 현장매칭 전체 게임방 조회 dto로 리턴값 수정">
+      <option name="closed" value="true" />
+      <created>1749558395978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749558395978</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[수정] 게임방 내 게임 리스트 조회 시, 각 참가자의 팀 구분값을 같이 반환">
+      <option name="closed" value="true" />
+      <created>1749566025510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749566025510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[수정] 게임방 내 게임 리스트 조회 시, 각 참가자의 팀 구분값을 같이 반환 (getGamesByGameRoomId 메소드에 적용)">
+      <option name="closed" value="true" />
+      <created>1749569571050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749569571050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[수정] 마이페이지 사용자 정보를 dto 형식으로 반환">
+      <option name="closed" value="true" />
+      <created>1749573306950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749573306950</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[수정] MMR 갱신 시 단식의 경우 승패구분 없이 win count +1 되던 에러 수정">
+      <option name="closed" value="true" />
+      <created>1749660203829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749660203829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[수정] 현장매칭 전체 게임방 조회 dto로 리턴값 수정" />
+    <MESSAGE value="[수정] 게임방 내 게임 리스트 조회 시, 각 참가자의 팀 구분값을 같이 반환" />
+    <MESSAGE value="[수정] 게임방 내 게임 리스트 조회 시, 각 참가자의 팀 구분값을 같이 반환 (getGamesByGameRoomId 메소드에 적용)" />
+    <MESSAGE value="[수정] 마이페이지 사용자 정보를 dto 형식으로 반환" />
+    <MESSAGE value="[수정] MMR 갱신 시 단식의 경우 승패구분 없이 win count +1 되던 에러 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] MMR 갱신 시 단식의 경우 승패구분 없이 win count +1 되던 에러 수정" />
+  </component>
+</project>

@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+~$*
+$RECYCLE.BIN/
+*.lnk
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 환경변수 파일
+.env
+.env.local
+.env.*.local
+
+# 빌드 결과물
+/build
+/dist
+
+# 테스트 결과
+/coverage
+
+# 로그
+*.log
+
+# IDE 설정
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Storybook
+storybook-static/
+
+# 캐시
+.cache/
+.next/
+out/
+
+# 기타
+*.tmp
+*.swp

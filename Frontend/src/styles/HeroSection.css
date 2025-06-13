@@ -1,0 +1,132 @@
+.hero-section {
+  background-color: #AF1AAA;
+  color: white;
+  padding: 60px 80px;
+  font-family: 'Wanted Sans Variable', sans-serif;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hero-logo {
+  height: 45px;
+  width: auto;
+}
+
+.hero-nav span {
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-nav span:hover {
+  color: #632AB3;
+  transition: color 0.4s ease;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #f2f2f2;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.hero-button {
+  background-color: white;
+  color: #AF1AAA;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: #e3d9ff;
+}
+
+.hero-slider {
+  position: relative;
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.slider-button i {
+  font-size: 28px;
+  color: #ffdbf5;
+  transition: color 0.3s ease;
+}
+
+.slider-button:hover i {
+  color: #ffbde0;
+}
+
+.slider-button.left {
+  left: -50px;
+}
+
+.slider-button.right {
+  right: -50px;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 6px;
+  border-radius: 50%;
+  background-color: #ffffff55;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #ffffff;
+}

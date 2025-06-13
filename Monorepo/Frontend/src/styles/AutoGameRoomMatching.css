@@ -1,0 +1,212 @@
+.agr-auto-matching-container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 40px 36px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+}
+
+.agr-auto-matching-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.agr-auto-matching-header h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.agr-auto-matching-time {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.agr-auto-matching-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 28px;
+}
+
+.agr-match-type-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.agr-match-type-button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1.5px solid #d1d5db;
+  background-color: #ffffff;
+  color: #111827;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.agr-match-type-button:hover {
+  background-color: #f3f4f6;
+}
+
+.agr-match-type-button.active {
+  background-color: #AF1AAA;
+  border-color: #AF1AAA;
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(175, 26, 170, 0.3);
+}
+
+.agr-auto-matching-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.agr-auto-matching-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #374151;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.agr-auto-matching-input,
+.agr-auto-matching-select {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #e5e7eb;
+  font-size: 15px;
+  transition: border 0.2s ease;
+}
+
+.agr-auto-matching-input:focus,
+.agr-auto-matching-select:focus {
+  border-color: #AF1AAA;
+  outline: none;
+}
+
+.agr-auto-matching-info {
+  background-color: #f9fafb;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1.5px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  margin-top: 36px;
+}
+
+.agr-auto-matching-info p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.agr-auto-matching-info ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.8;
+}
+
+/* ✅ 모달 */
+.agr-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.agr-modal-content {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.agr-close-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #AF1AAA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.agr-close-button:hover {
+  background: #96128e;
+}
+
+/* ✅ 팝업 */
+.agr-success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4ade80;
+  color: #064e3b;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* ✅ 버튼 정렬 및 크기 동일화 */
+.agr-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.agr-create-button,
+.agr-leave-button {
+  width: 160px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* 기존 색상 유지 */
+.agr-create-button {
+  background: #AF1AAA;
+  color: white;
+}
+
+.agr-create-button:hover {
+  background: #9b0e99;
+}
+
+.agr-leave-button {
+  background: #ef4444;
+  color: white;
+}
+
+.agr-leave-button:hover {
+  background: #dc2626;
+}

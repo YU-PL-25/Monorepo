@@ -1,0 +1,267 @@
+.grd-gameroom-detail {
+  background: #f8f9fa;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  padding-bottom: 40px;
+}
+
+.grd-detail-header {
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grd-back-button {
+  border: 2px solid #af1aaa;
+  color: #af1aaa;
+  background: transparent;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grd-back-button:hover {
+  background-color: #af1aaa;
+  color: white;
+}
+
+.grd-room-status-badge {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  color: #444;
+}
+
+.grd-status-indicator.waiting {
+  width: 10px;
+  height: 10px;
+  background-color: #facc15;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.grd-detail-container {
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.grd-room-info-section, .grd-teams-section, .grd-actions-section {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.grd-room-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #af1aaa;
+}
+
+.grd-room-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.grd-room-meta span {
+  background: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.grd-game-type {
+  background: #af1aaa;
+  color: white !important;
+}
+
+.grd-room-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.grd-detail-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.grd-detail-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #334155;
+}
+
+.grd-rules-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.grd-teams-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.grd-team-card {
+  flex: 1;
+  min-width: 300px;
+}
+
+.grd-team-title {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #af1aaa;
+  font-weight: 700;
+}
+
+.grd-team-players {
+  display: flex;
+  gap: 16px;
+}
+
+.grd-player-card, .grd-empty-slot {
+  background: #f1f5f9;
+  padding: 16px;
+  border-radius: 12px;
+  flex: 1;
+  text-align: center;
+}
+
+.grd-avatar-circle.large {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #af1aaa;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto 8px;
+}
+
+.grd-host-badge {
+  background: gold;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
+
+.grd-player-info .grd-player-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.grd-skill-level {
+  color: #666;
+  font-size: 13px;
+}
+
+.grd-player-status {
+  margin-top: 6px;
+}
+
+.grd-ready-indicator.ready {
+  background: #dcfce7;
+  color: #166534;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.grd-vs-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #94a3b8;
+  margin: 0 24px;
+}
+
+.grd-action-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.grd-action-buttons button {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.grd-start-button {
+  background: #16a34a;
+  color: white;
+  transition: background 0.15s ease;
+}
+
+.grd-start-button:active {
+  background: #15803d; /* 더 진한 초록 */
+}
+
+.grd-start-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.grd-chat-button {
+  background: #3b82f6;
+  color: white;
+  transition: background 0.15s ease;
+}
+
+.grd-chat-button:active {
+  background: #2563eb; /* 더 진한 파랑 */
+}
+
+.grd-leave-button {
+  background: #ef4444;
+  color: white;
+  transition: background 0.15s ease;
+}
+
+.grd-leave-button:active {
+  background: #dc2626; /* 더 진한 빨강 */
+}
+
+.grd-gameroom-detail {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.grd-body-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
