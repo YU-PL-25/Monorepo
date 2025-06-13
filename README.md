@@ -5,8 +5,8 @@ React (프론트엔드) + Spring Boot (백엔드) 기반의 웹 서비스 프로
 
 ## 📁 폴더 구조 안내
 폴더명	설명
-- [Backend](../Backend)	Spring Boot 기반 백엔드 코드
-- [Frontend](../Frontend)	React 기반 프론트엔드 코드
+- [Backend](./Backend)	Spring Boot 기반 백엔드 코드
+- [Frontend](./Frontend)	React 기반 프론트엔드 코드
 - [Monorepo](./Monorepo) 프론트엔드(React)를 빌드하여 포함한 백엔드(Spring Boot) 통합 실행 코드
 
 
